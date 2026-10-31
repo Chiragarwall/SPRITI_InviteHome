@@ -8,7 +8,7 @@
 <script>
 /* Always show the latest deployment. BUILD is stamped into this file; version.json is always fetched
    fresh from the server. If they differ, this browser is holding a stale copy: reload once, cache-busted. */
-var BUILD = "20261031-164758";
+var BUILD = "20261031-165021";
 (function () {
   try {
     if (!/^https?:/.test(location.protocol)) return;               // skip file:// previews
@@ -2762,7 +2762,7 @@ window.addEventListener("resize", setupScratch);
 /* ══════════════════════════════════════════════════════
    8. COUNTDOWN with tick animation
 ══════════════════════════════════════════════════════ */
-const weddingDate = new Date("2026-12-03T17:00:00+05:30").getTime();
+const weddingDate = new Date("2026-12-03T00:00:00+05:30").getTime();
 const cdEls = {
   days:    document.getElementById("days"),
   hours:   document.getElementById("hours"),
